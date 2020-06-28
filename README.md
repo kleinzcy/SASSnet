@@ -10,7 +10,7 @@ Our code is origin from [UA-MT](https://github.com/yulequan/UA-MT)
 git clone https://github.com/kleinzcy/SASSnet.git 
 cd SASSnet
 ```
-2. Put the data in `data/2018LA_Seg_TrainingSet`.
+2. Put the data in `data/2018LA_Seg_Training Set`.
 
 3. Train the model
 ```
