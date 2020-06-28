@@ -6,27 +6,27 @@ Our code is origin from [UA-MT](https://github.com/yulequan/UA-MT)
 # Usage
 
 1. Clone the repo:
-`
+```
 git clone https://github.com/kleinzcy/SASSnet.git 
 cd SASSnet
-`
+```
 2. Put the data in `data/2018LA_Seg_TrainingSet`.
 
 3. Train the model
-`
+```
 cd code
 # for 16 label
 python train_gan_sdfloss.py --gpu 0 --label 16 --consistency 0.01 --exp model_name
 # for 8 label
 python train_gan_sdfloss.py --gpu 0 --label 8 --consistency 0.015 --exp model_name
-`
+```
 
 Params are the best setting in our experiment.
 
 4. Test the model
-`
+```
 python test_LA.py --model model_name --gpu 0 --iter 6000
-`
+```
 Our best model are save in model dir.
 
 # Citation
