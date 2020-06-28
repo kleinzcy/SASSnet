@@ -28,7 +28,7 @@ from dataloaders.la_heart import LAHeart, RandomCrop, CenterCrop, RandomRotFlip,
 from utils.util import compute_sdf
 
 parser = argparse.ArgumentParser()
-parser.add_argument('--root_path', type=str, default='/group/chuyu/dataset/LA_dataset', help='Name of Experiment')
+parser.add_argument('--root_path', type=str, default='../data/2018LA_Seg_Training Set/', help='Name of Experiment')
 parser.add_argument('--exp', type=str,  default='UAMT_001', help='model_name')
 parser.add_argument('--max_iterations', type=int,  default=6000, help='maximum epoch number to train')
 parser.add_argument('--batch_size', type=int, default=4, help='batch_size per gpu')
