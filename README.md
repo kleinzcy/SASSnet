@@ -1,7 +1,7 @@
 # SASSnet
 Code for paper: Shape-aware Semi-supervised 3D Semantic Segmentation for Medical Images(MICCAI 2020)
 
-Our code is origin from [UA-MT]{https://github.com/yulequan/UA-MT}
+Our code is origin from {UA-MT}[https://github.com/yulequan/UA-MT]
 
 # Usage
 
@@ -27,6 +27,7 @@ Params are the best setting in our experiment.
 `
 python test_LA.py --model model_name --gpu 0 --iter 6000
 `
+Our best model are save in model dir.
 
 # Citation
 
