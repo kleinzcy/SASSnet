@@ -1,7 +1,7 @@
 # SASSnet
 Code for paper: Shape-aware Semi-supervised 3D Semantic Segmentation for Medical Images(MICCAI 2020)
 
-Our code is origin from {UA-MT}[https://github.com/yulequan/UA-MT]
+Our code is origin from [UA-MT](https://github.com/yulequan/UA-MT)
 
 # Usage
 
