@@ -5,7 +5,7 @@ from networks.vnet_sdf import VNet
 from test_util import test_all_case
 
 parser = argparse.ArgumentParser()
-parser.add_argument('--root_path', type=str, default='/group/chuyu/dataset/LA_dataset/', help='Name of Experiment')
+parser.add_argument('--root_path', type=str, default='../data/2018LA_Seg_Training Set/', help='Name of Experiment')
 parser.add_argument('--model', type=str,  default='UAMT', help='model_name')
 parser.add_argument('--gpu', type=str,  default='0', help='GPU to use')
 parser.add_argument('--iter', type=int,  default=6000, help='model iteration')
