@@ -27,7 +27,7 @@ Params are the best setting in our experiment.
 ```
 python test_LA.py --model model_name --gpu 0 --iter 6000
 ```
-Our best model are save in model dir.
+Our best model are saved in model dir.
 
 # Citation
 
