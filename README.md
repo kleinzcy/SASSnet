@@ -3,6 +3,8 @@ Code for paper: Shape-aware Semi-supervised 3D Semantic Segmentation for Medical
 
 Our code is origin from [UA-MT](https://github.com/yulequan/UA-MT)
 
+You can find in [Arxiv](https://arxiv.org/abs/2007.10732).
+
 # Usage
 
 1. Clone the repo:
